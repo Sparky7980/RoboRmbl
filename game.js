@@ -28,10 +28,10 @@ let rescuedRobotsText;
 
 function preload() {
     // Load the assets (spritesheets, images)
-    this.load.image('sky', 'https://labs.phaser.io/assets/skies/space3.png');
-    this.load.image('ground', 'https://labs.phaser.io/assets/sprites/platform.png');
-    this.load.image('robot', 'https://labs.phaser.io/assets/sprites/mushroom2.png');
-    this.load.spritesheet('player', 'https://labs.phaser.io/assets/sprites/dude.png', { frameWidth: 32, frameHeight: 48 });
+    this.load.image('sky', 'https://raw.githubusercontent.com/Sparky7980/RoboRmbl/refs/heads/main/assets/space3.png');
+    this.load.image('ground', 'https://raw.githubusercontent.com/Sparky7980/RoboRmbl/refs/heads/main/assets/platform.png');
+    this.load.image('robot', 'https://raw.githubusercontent.com/Sparky7980/RoboRmbl/refs/heads/main/assets/mushroom2.png');
+    this.load.spritesheet('player', 'https://raw.githubusercontent.com/Sparky7980/RoboRmbl/refs/heads/main/assets/dude.png', { frameWidth: 32, frameHeight: 48 });
 }
 
 function create() {
